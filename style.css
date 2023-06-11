@@ -1,15 +1,34 @@
 .ervaring {
     color: red;
+    display: grid
+    align-content: center;
 }
 .Opleiding {
+    display: grid;
+grid-template-rows: auto;
     color: red;
+
 }
 .Leiderschap {
     color: red;
+    display: flex;
+    align-content: center;
 }
 .talents {
     color: red;
+    display: flex;
+    align-content: center;
 }
 body {
     background-color: beige;
+    text-align: center;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.Doel {
+    display: flex;
+    align-content: center;
 }
